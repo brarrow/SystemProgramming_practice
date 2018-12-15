@@ -1,0 +1,4 @@
+# ninja log v5
+0	376	1544893906	build.ninja	ef42a77feaebdca1
+0	543	1544893907	src/Ex2Vector/src@Ex2Vector@@Ex2Vector@exe/main.cc.o	a1fe9d9de4235068
+543	625	1544893907	src/Ex2Vector/Ex2Vector	7b2c445f185290b2
