@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "/home/brarrow/Projects/SystProgrPract/SystemProgramming_practice/Ex10Turn/build",
+    "command": "c++ -Isrc/test/src@test@@Ex10Turn@exe -Isrc/test -I../src/test -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O0 -g -pthread  -MD -MQ 'src/test/src@test@@Ex10Turn@exe/Turn90_Test.cc.o' -MF 'src/test/src@test@@Ex10Turn@exe/Turn90_Test.cc.o.d' -o 'src/test/src@test@@Ex10Turn@exe/Turn90_Test.cc.o' -c ../src/test/Turn90_Test.cc",
+    "file": "../src/test/Turn90_Test.cc"
+  }
+]

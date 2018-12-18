@@ -1,0 +1,15 @@
+# ninja log v5
+0	920	1545145191	src/test/src@test@@Ex10Turn@exe/Turn90_Test.cc.o	9a7d86528cf8640f
+920	1024	1545145192	src/test/Ex10Turn	8b8633b494613567
+0	878	1545145292	src/test/src@test@@Ex10Turn@exe/Turn90_Test.cc.o	9a7d86528cf8640f
+878	979	1545145292	src/test/Ex10Turn	8b8633b494613567
+1	909	1545145408	src/test/src@test@@Ex10Turn@exe/Turn90_Test.cc.o	9a7d86528cf8640f
+909	1007	1545145408	src/test/Ex10Turn	8b8633b494613567
+0	860	1545145443	src/test/src@test@@Ex10Turn@exe/Turn90_Test.cc.o	9a7d86528cf8640f
+860	958	1545145444	src/test/Ex10Turn	8b8633b494613567
+2	872	1545145560	src/test/src@test@@Ex10Turn@exe/Turn90_Test.cc.o	9a7d86528cf8640f
+872	981	1545145560	src/test/Ex10Turn	8b8633b494613567
+1	867	1545145584	src/test/src@test@@Ex10Turn@exe/Turn90_Test.cc.o	9a7d86528cf8640f
+867	964	1545145585	src/test/Ex10Turn	8b8633b494613567
+0	881	1545146193	src/test/src@test@@Ex10Turn@exe/Turn90_Test.cc.o	9a7d86528cf8640f
+881	979	1545146194	src/test/Ex10Turn	8b8633b494613567
