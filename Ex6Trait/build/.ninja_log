@@ -1,0 +1,19 @@
+# ninja log v5
+0	1039	1545599611	src/test/src@test@@Ex6Trait@exe/TraitTest.cc.o	8dfa06d9a3c4c9c6
+1040	1153	1545599611	src/test/Ex6Trait	fffecb7e4ef63585
+0	1077	1545600092	src/test/src@test@@Ex6Trait@exe/TraitTest.cc.o	8dfa06d9a3c4c9c6
+1077	1208	1545600092	src/test/Ex6Trait	fffecb7e4ef63585
+1	1012	1545600665	src/test/src@test@@Ex6Trait@exe/TraitTest.cc.o	8dfa06d9a3c4c9c6
+1012	1126	1545600666	src/test/Ex6Trait	fffecb7e4ef63585
+2	1092	1545600808	src/test/src@test@@Ex6Trait@exe/TraitTest.cc.o	8dfa06d9a3c4c9c6
+1092	1201	1545600808	src/test/Ex6Trait	fffecb7e4ef63585
+1	1039	1545600947	src/test/src@test@@Ex6Trait@exe/TraitTest.cc.o	8dfa06d9a3c4c9c6
+1039	1150	1545600947	src/test/Ex6Trait	fffecb7e4ef63585
+0	1049	1545601243	src/test/src@test@@Ex6Trait@exe/TraitTest.cc.o	8dfa06d9a3c4c9c6
+1049	1156	1545601243	src/test/Ex6Trait	fffecb7e4ef63585
+1	1036	1545601387	src/test/src@test@@Ex6Trait@exe/TraitTest.cc.o	8dfa06d9a3c4c9c6
+1036	1150	1545601387	src/test/Ex6Trait	fffecb7e4ef63585
+1	1037	1545601706	src/test/src@test@@Ex6Trait@exe/TraitTest.cc.o	8dfa06d9a3c4c9c6
+1037	1147	1545601706	src/test/Ex6Trait	fffecb7e4ef63585
+1	1040	1545601737	src/test/src@test@@Ex6Trait@exe/TraitTest.cc.o	8dfa06d9a3c4c9c6
+1040	1153	1545601737	src/test/Ex6Trait	fffecb7e4ef63585
