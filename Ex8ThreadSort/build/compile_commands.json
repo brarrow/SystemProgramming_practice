@@ -1,0 +1,12 @@
+[
+  {
+    "directory": "/home/brarrow/Projects/SystProgrPract/SystemProgramming_practice/Ex8ThreadSort/build",
+    "command": "c++ -Isrc/Ex8ThreadSort/src@Ex8ThreadSort@@Ex8ThreadSort@exe -Isrc/Ex8ThreadSort -I../src/Ex8ThreadSort -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O0 -g -pthread  -MD -MQ 'src/Ex8ThreadSort/src@Ex8ThreadSort@@Ex8ThreadSort@exe/main.cc.o' -MF 'src/Ex8ThreadSort/src@Ex8ThreadSort@@Ex8ThreadSort@exe/main.cc.o.d' -o 'src/Ex8ThreadSort/src@Ex8ThreadSort@@Ex8ThreadSort@exe/main.cc.o' -c ../src/Ex8ThreadSort/main.cc",
+    "file": "../src/Ex8ThreadSort/main.cc"
+  },
+  {
+    "directory": "/home/brarrow/Projects/SystProgrPract/SystemProgramming_practice/Ex8ThreadSort/build",
+    "command": "c++ -Isrc/test/src@test@@Ex8ThreadSort@exe -Isrc/test -I../src/test -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O0 -g -pthread  -MD -MQ 'src/test/src@test@@Ex8ThreadSort@exe/ThreadSortTest.cc.o' -MF 'src/test/src@test@@Ex8ThreadSort@exe/ThreadSortTest.cc.o.d' -o 'src/test/src@test@@Ex8ThreadSort@exe/ThreadSortTest.cc.o' -c ../src/test/ThreadSortTest.cc",
+    "file": "../src/test/ThreadSortTest.cc"
+  }
+]
