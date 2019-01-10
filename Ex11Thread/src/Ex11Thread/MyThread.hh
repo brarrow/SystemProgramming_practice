@@ -21,6 +21,7 @@ class MyThread
 
         if ((pid = clone(f, stack_end, CLONE_VM | CLONE_FS | CLONE_FILES | CLONE_SIGHAND | SIGCHLD, 0)) == -1)
         {
+            delete[] stack;
             throw std::system_error(errno, std::generic_category());
         };
     }
@@ -30,6 +31,7 @@ class MyThread
         int i = 0;
         if ((waitpid(pid, &i, 0)) == -1)
         {
+            delete[] stack;
             throw std::system_error(errno, std::generic_category());
         }
     }
