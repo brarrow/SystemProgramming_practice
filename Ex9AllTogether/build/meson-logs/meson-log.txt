@@ -1,0 +1,66 @@
+Build started at 2019-01-10T17:42:53.100745
+Main binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.47.2
+Source dir: /home/brarrow/Projects/SystProgrPract/SystemProgramming_practice/Ex9AllTogether
+Build dir: /home/brarrow/Projects/SystProgrPract/SystemProgramming_practice/Ex9AllTogether/build
+Build type: native build
+Project name: Ex9AllTogether
+Project version: 1.0
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /home/brarrow/Projects/SystProgrPract/SystemProgramming_practice/Ex9AllTogether/build/meson-private/sanitycheckcpp.cc -o /home/brarrow/Projects/SystProgrPract/SystemProgramming_practice/Ex9AllTogether/build/meson-private/sanitycheckcpp.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/brarrow/Projects/SystProgrPract/SystemProgramming_practice/Ex9AllTogether/build/meson-private/sanitycheckcpp.exe
+Native C++ compiler: c++ (gcc 8.2.0 "c++ (Ubuntu 8.2.0-7ubuntu1) 8.2.0")
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Dependency threads found: YES
+Running compile:
+Working directory:  /tmp/tmpb_fth0_d
+Command line:  c++ /tmp/tmpb_fth0_d/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpb_fth0_d/output.exe -O0 -fpermissive -Wl,--start-group -lgtest -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(int argc, char **argv) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpm62wypzh
+Command line:  c++ /tmp/tmpm62wypzh/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpm62wypzh/output.exe -O0 -fpermissive -Wl,--start-group -lgtest_main -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(int argc, char **argv) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Dependency GTest found: YES (prebuilt)
+Adding test "Message"
+Adding test "ThreadSort"
+Adding test "Trait"
+Adding test "Turn90"
+Configuring Doxyfile using configuration
+Program doxygen found: YES (/usr/bin/doxygen)
+Build targets in project: 9
+Found ninja-1.8.2 at /usr/bin/ninja
+Running compile:
+Working directory:  /tmp/tmppfont3x0
+Command line:  c++ /tmp/tmppfont3x0/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmppfont3x0/output.obj -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/8/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/8/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/8/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
