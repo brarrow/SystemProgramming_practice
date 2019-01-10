@@ -11,6 +11,7 @@ class MyThread
     size_t stack_size;
     char *stack;
     void *stack_end;
+    int stat;
 
   public:
     MyThread(int (*f)(void *args))
@@ -21,17 +22,15 @@ class MyThread
 
         if ((pid = clone(f, stack_end, CLONE_VM | CLONE_FS | CLONE_FILES | CLONE_SIGHAND | SIGCHLD, 0)) == -1)
         {
-            delete[] stack;
             throw std::system_error(errno, std::generic_category());
         };
+        stat = 0;
     }
 
     void join()
     {
-        int i = 0;
-        if ((waitpid(pid, &i, 0)) == -1)
+        if ((waitpid(pid, &stat, 0)) == -1)
         {
-            delete[] stack;
             throw std::system_error(errno, std::generic_category());
         }
     }
@@ -45,6 +44,9 @@ class MyThread
         pid_t newPid = thread.pid;
         thread.pid = pid;
         pid = newPid;
+        std::swap(stack, thread.stack);
+        std::swap(stack_end, thread.stack_end);
+        std::swap(stat, thread.stat);
     }
 
     MyThread &operator=(MyThread &&thread)
@@ -55,9 +57,8 @@ class MyThread
 
     ~MyThread()
     {
-      if (pid != -1) {
-        kill(pid, SIGTERM);
-      }
+        if (pid != -1) 
+            kill(pid, SIGTERM);
         delete[] stack;
     }
 };
