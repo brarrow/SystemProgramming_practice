@@ -53,7 +53,7 @@ class MyThread
 
     ~MyThread()
     {
-      if (kill(pid, 0)) {
+      if (pid != -1) {
         kill(pid, SIGTERM);
       }
         delete[] stack;
