@@ -1,7 +1,7 @@
 [
   {
     "directory": "/home/brarrow/Projects/SystProgrPract/SystemProgramming_practice/Ex11Thread/build",
-    "command": "c++ -Isrc/test/src@test@@Ex11Thread@exe -Isrc/test -I../src/test -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O0 -g -pthread  -MD -MQ 'src/test/src@test@@Ex11Thread@exe/MyThread_Test.cc.o' -MF 'src/test/src@test@@Ex11Thread@exe/MyThread_Test.cc.o.d' -o 'src/test/src@test@@Ex11Thread@exe/MyThread_Test.cc.o' -c ../src/test/MyThread_Test.cc",
-    "file": "../src/test/MyThread_Test.cc"
+    "command": "c++ -Isrc/test/src@test@@Ex11Thread@exe -Isrc/test -I../src/test -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O0 -g -pthread  -MD -MQ 'src/test/src@test@@Ex11Thread@exe/MyThreadTest.cc.o' -MF 'src/test/src@test@@Ex11Thread@exe/MyThreadTest.cc.o.d' -o 'src/test/src@test@@Ex11Thread@exe/MyThreadTest.cc.o' -c ../src/test/MyThreadTest.cc",
+    "file": "../src/test/MyThreadTest.cc"
   }
 ]

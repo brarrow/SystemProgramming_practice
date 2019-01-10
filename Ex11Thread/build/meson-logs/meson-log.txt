@@ -1,4 +1,4 @@
-Build started at 2018-12-19T19:38:06.170549
+Build started at 2019-01-10T17:06:41.047703
 Main binary: /usr/bin/python3
 Python system: Linux
 The Meson build system
@@ -22,8 +22,8 @@ Native C++ compiler: c++ (gcc 8.2.0 "c++ (Ubuntu 8.2.0-7ubuntu1) 8.2.0")
 Build machine cpu family: x86_64
 Build machine cpu: x86_64
 Running compile:
-Working directory:  /tmp/tmpfz9yyqc3
-Command line:  c++ /tmp/tmpfz9yyqc3/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpfz9yyqc3/output.exe -O0 -fpermissive -Wl,--start-group -lgtest -Wl,--end-group -Wl,--allow-shlib-undefined 
+Working directory:  /tmp/tmpuqausjvn
+Command line:  c++ /tmp/tmpuqausjvn/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpuqausjvn/output.exe -O0 -fpermissive -Wl,--start-group -lgtest -Wl,--end-group -Wl,--allow-shlib-undefined 
 
 Code:
  int main(int argc, char **argv) { return 0; }
@@ -32,8 +32,8 @@ Compiler stdout:
 Compiler stderr:
  
 Running compile:
-Working directory:  /tmp/tmp1chlnhsr
-Command line:  c++ /tmp/tmp1chlnhsr/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp1chlnhsr/output.exe -O0 -fpermissive -Wl,--start-group -lgtest_main -Wl,--end-group -Wl,--allow-shlib-undefined 
+Working directory:  /tmp/tmpd5nzasxn
+Command line:  c++ /tmp/tmpd5nzasxn/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpd5nzasxn/output.exe -O0 -fpermissive -Wl,--start-group -lgtest_main -Wl,--end-group -Wl,--allow-shlib-undefined 
 
 Code:
  int main(int argc, char **argv) { return 0; }
@@ -46,8 +46,8 @@ Adding test "Ex11Thread"
 Build targets in project: 1
 Found ninja-1.8.2 at /usr/bin/ninja
 Running compile:
-Working directory:  /tmp/tmpuqqf8fzk
-Command line:  c++ /tmp/tmpuqqf8fzk/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpuqqf8fzk/output.obj -O0 -fpermissive --print-search-dirs 
+Working directory:  /tmp/tmpdg9ttmmk
+Command line:  c++ /tmp/tmpdg9ttmmk/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpdg9ttmmk/output.obj -O0 -fpermissive --print-search-dirs 
 
 Code:
  

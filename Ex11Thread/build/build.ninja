@@ -60,11 +60,11 @@ build PHONY: phony
 
 # Build rules for targets
 
-build src/test/src@test@@Ex11Thread@exe/MyThread_Test.cc.o: cpp_COMPILER ../src/test/MyThread_Test.cc
- DEPFILE = src/test/src@test@@Ex11Thread@exe/MyThread_Test.cc.o.d
+build src/test/src@test@@Ex11Thread@exe/MyThreadTest.cc.o: cpp_COMPILER ../src/test/MyThreadTest.cc
+ DEPFILE = src/test/src@test@@Ex11Thread@exe/MyThreadTest.cc.o.d
  ARGS = -Isrc/test/src@test@@Ex11Thread@exe -Isrc/test -I../src/test -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O0 -g -pthread
 
-build src/test/Ex11Thread: cpp_LINKER src/test/src@test@@Ex11Thread@exe/MyThread_Test.cc.o | /usr/lib/x86_64-linux-gnu/libgtest.a /usr/lib/x86_64-linux-gnu/libgtest_main.a
+build src/test/Ex11Thread: cpp_LINKER src/test/src@test@@Ex11Thread@exe/MyThreadTest.cc.o | /usr/lib/x86_64-linux-gnu/libgtest.a /usr/lib/x86_64-linux-gnu/libgtest_main.a
  LINK_ARGS = -Wl,--no-undefined -Wl,--as-needed -Wl,--start-group -lgtest -lgtest_main -Wl,--end-group -pthread
 
 # Test rules

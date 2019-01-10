@@ -1,3 +1,3 @@
 # ninja log v5
-0	905	1545237507	src/test/src@test@@Ex11Thread@exe/MyThread_Test.cc.o	1eed16455834d1c6
-906	1005	1545237507	src/test/Ex11Thread	f9632fa4ec3ec379
+0	949	1547129211	src/test/src@test@@Ex11Thread@exe/MyThreadTest.cc.o	8d31156077a125a4
+950	1051	1547129211	src/test/Ex11Thread	51b1acc4398d5799

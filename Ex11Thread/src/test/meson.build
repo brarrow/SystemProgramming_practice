@@ -3,7 +3,7 @@ test(
     'Ex11Thread',
     executable(
         'Ex11Thread',
-        sources: ['MyThread_Test.cc'],
+        sources: ['MyThreadTest.cc'],
         include_directories: src,
         dependencies: [gtest]
     )

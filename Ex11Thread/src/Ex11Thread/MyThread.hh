@@ -27,7 +27,8 @@ class MyThread
 
     void join()
     {
-        if ((waitpid(pid, (new int(0)), 0)) == -1)
+        int i = 0;
+        if ((waitpid(pid, &i, 0)) == -1)
         {
             throw std::system_error(errno, std::generic_category());
         }
@@ -52,7 +53,8 @@ class MyThread
 
     ~MyThread()
     {
-        kill(pid, SIGTERM);
+        if(pid > 1)
+            kill(pid, SIGTERM);
         delete[] stack;
     }
 };
