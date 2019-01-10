@@ -1,0 +1,60 @@
+Build started at 2019-01-10T16:20:14.542023
+Main binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.47.2
+Source dir: /home/brarrow/Projects/SystProgrPract/SystemProgramming_practice/Ex4Array
+Build dir: /home/brarrow/Projects/SystProgrPract/SystemProgramming_practice/Ex4Array/build
+Build type: native build
+Project name: Ex4Array
+Project version: 1.0
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /home/brarrow/Projects/SystProgrPract/SystemProgramming_practice/Ex4Array/build/meson-private/sanitycheckcpp.cc -o /home/brarrow/Projects/SystProgrPract/SystemProgramming_practice/Ex4Array/build/meson-private/sanitycheckcpp.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/brarrow/Projects/SystProgrPract/SystemProgramming_practice/Ex4Array/build/meson-private/sanitycheckcpp.exe
+Native C++ compiler: c++ (gcc 8.2.0 "c++ (Ubuntu 8.2.0-7ubuntu1) 8.2.0")
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Running compile:
+Working directory:  /tmp/tmp902n52ph
+Command line:  c++ /tmp/tmp902n52ph/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp902n52ph/output.exe -O0 -fpermissive -Wl,--start-group -lgtest -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(int argc, char **argv) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpxiffjnnt
+Command line:  c++ /tmp/tmpxiffjnnt/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpxiffjnnt/output.exe -O0 -fpermissive -Wl,--start-group -lgtest_main -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(int argc, char **argv) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Dependency GTest found: YES (prebuilt)
+Adding test "myarray"
+Build targets in project: 2
+Found ninja-1.8.2 at /usr/bin/ninja
+Running compile:
+Working directory:  /tmp/tmph7fltb9x
+Command line:  c++ /tmp/tmph7fltb9x/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmph7fltb9x/output.obj -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/8/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/8/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/8/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 

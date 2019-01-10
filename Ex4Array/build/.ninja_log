@@ -1,0 +1,13 @@
+# ninja log v5
+1	969	1547126433	src/test/src@test@@myarray@exe/MyArrayTest.cc.o	b247058fee2b6cd8
+3	203	1547126506	src/test/myarray	e89592dabcb197f3
+1	428	1547126544	src/Ex4Array/src@Ex4Array@@MyArray@exe/main.cpp.o	e9ff12ed0ac34276
+428	523	1547126544	src/Ex4Array/MyArray	69326942816997d7
+1	531	1547126735	src/Ex4Array/src@Ex4Array@@MyArray@exe/main.cpp.o	e9ff12ed0ac34276
+531	657	1547126735	src/Ex4Array/MyArray	69326942816997d7
+2	1230	1547126736	src/test/src@test@@myarray@exe/MyArrayTest.cc.o	b247058fee2b6cd8
+1230	1363	1547126736	src/test/myarray	e89592dabcb197f3
+1	327	1547127243	src/Ex4Array/src@Ex4Array@@MyArray@exe/main.cpp.o	e9ff12ed0ac34276
+327	436	1547127243	src/Ex4Array/MyArray	69326942816997d7
+1	1008	1547127244	src/test/src@test@@myarray@exe/MyArrayTest.cc.o	b247058fee2b6cd8
+1008	1123	1547127244	src/test/myarray	e89592dabcb197f3
